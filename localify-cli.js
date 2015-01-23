@@ -2,7 +2,7 @@
 
 // deps
 
-var localify = require('./lib');
+var localify = require('./lib').localifyCSSAssets;
 
 
 
@@ -22,5 +22,5 @@ if (process.argv.length && process.argv.length < 6) {
 }
 
 if (process.argv.length && process.argv.length >= 6) {
-  localify.localifyCSSAssets.apply(null, process.argv.splice(2));
+  localify.apply(null, process.argv.splice(2));
 }
