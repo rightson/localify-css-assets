@@ -1,0 +1,28 @@
+{
+  "name": "localify-css-assets",
+  "version": "0.1.0",
+  "description": "Localify css assets",
+  "main": "localify-cli.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rightson/localify-css-assets.git"
+  },
+  "keywords": [
+    "css",
+    "local",
+    "localify",
+    "assets"
+  ],
+  "author": "Scott Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rightson/localify-css-assets/issues"
+  },
+  "homepage": "https://github.com/rightson/localify-css-assets",
+  "dependencies": {
+    "mkdirp": "^0.5.0"
+  }
+}
